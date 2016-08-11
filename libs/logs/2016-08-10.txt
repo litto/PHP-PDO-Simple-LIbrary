@@ -1,0 +1,126 @@
+Time : 16:45:56
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '101' for key 'PRIMARY'
+Raw SQL : UPDATE persons SET Firstname = :Firstname,Lastname = :Lastname,Age = :Age,Sex = :Sex,Id = :Id
+
+Time : 16:37:30
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '101' for key 'PRIMARY'
+Raw SQL : UPDATE persons SET Firstname = :Firstname,Lastname = :Lastname,Age = :Age,Sex = :Sex,Id = :Id
+
+Time : 16:37:10
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '101' for key 'PRIMARY'
+Raw SQL : UPDATE persons SET Firstname = :Firstname,Age = :Age,Sex = :Sex,Id = :Id
+
+Time : 16:11:18
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '101' for key 'PRIMARY'
+Raw SQL : UPDATE persons SET Firstname = :Firstname,Age = :Age,Sex = :Sex,Id = :Id
+
+Time : 16:10:50
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '101' for key 'PRIMARY'
+Raw SQL : UPDATE persons SET Firstname = :Firstname,age = :age,sex = :sex,Id = :Id
+
+Time : 14:15:27
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Lastname,Age,Sex) VALUES (:Firstname,:Lastname,:Age,:Sex)
+
+Time : 14:14:49
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 14:14:47
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 14:13:08
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 13:45:17
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array' at line 1
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)Array
+
+Time : 11:23:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array' at line 1
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)Array
+
+Time : 11:22:02
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 11:21:20
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Litto' in 'field list'
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (Litto,20,F)
+
+Time : 11:20:57
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'F' in 'field list'
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Litto,20,F)
+
+Time : 11:20:36
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Litto,:20,:F)
+
+Time : 11:19:37
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 11:17:43
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 11:15:08
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 11:14:59
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 11:14:18
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 11:12:19
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 11:12:05
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 11:08:40
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 11:07:16
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,age,sex) VALUES (:Firstname,:age,:sex)
+
+Time : 11:07:14
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,age,sex) VALUES (:Firstname,:age,:sex)
+
+Time : 11:05:15
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,age,sex) VALUES (:Firstname,:age,:sex)
+
+Time : 10:49:45
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,age,sex) VALUES (:Firstname,:age,:sex)
+
+Time : 10:49:42
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,age,sex) VALUES (:Firstname,:age,:sex)
+
+Time : 10:49:13
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,age,sex) VALUES (:Firstname,:age,:sex)
+
+Time : 10:47:49
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,age,sex) VALUES (:Firstname,:age,:sex)
+
+Time : 10:47:43
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : INSERT INTO persons (Firstname,age,sex) VALUES (:Firstname,:age,:sex)
+
+Time : 10:39:39
+SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)

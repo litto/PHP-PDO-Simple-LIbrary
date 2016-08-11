@@ -1,0 +1,183 @@
+Time : 14:15:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key = ? WHERE id= ?' at line 1
+Raw SQL : UPDATE cms_employee SET fullname = :fullname,email = :email,password = :password,key = :key WHERE id= :id
+
+Time : 12:33:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key,image,status) VALUES (?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO cms_employee (fullname,email,password,key,image,status) VALUES (:fullname,:email,:password,:key,:image,:status)
+
+Time : 12:32:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':`fullname`,:`email`,:`password`,:`key`,:`image`,:`status`)' at line 1
+Raw SQL : INSERT INTO cms_employee (`fullname`,`email`,`password`,`key`,`image`,`status`) VALUES (:`fullname`,:`email`,:`password`,:`key`,:`image`,:`status`)
+
+Time : 12:30:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key,image,status) VALUES (?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO cms_employee (fullname,email,password,key,image,status) VALUES (:fullname,:email,:password,:key,:image,:status)
+
+Time : 12:27:40
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key,image,status) VALUES (?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO cms_employee (fullname,email,password,key,image,status) VALUES (:fullname,:email,:password,:key,:image,:status)
+
+Time : 12:22:50
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mydb.persons' doesn't exist
+Raw SQL : INSERT INTO persons (Firstname,Age,Sex) VALUES (:Firstname,:Age,:Sex)
+
+Time : 12:21:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key,image,status) VALUES (?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO cms_employee (fullname,email,password,key,image,status) VALUES (:fullname,:email,:password,:key,:image,:status)
+
+Time : 12:21:29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key,image,status) VALUES (?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO cms_employee (fullname,email,password,key,image,status) VALUES (:fullname,:email,:password,:key,:image,:status)
+
+Time : 12:20:30
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key,image,status) VALUES (?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO cms_employee (fullname,email,password,key,image,status) VALUES (:fullname,:email,:password,:key,:image,:status)
+
+Time : 12:19:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key,image,status) VALUES (?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO cms_employee (fullname,email,password,key,image,status) VALUES (:fullname,:email,:password,:key,:image,:status)
+
+Time : 12:14:57
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key,image,status) VALUES (?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO cms_employee (fullname,email,password,key,image,status) VALUES (:fullname,:email,:password,:key,:image,:status)
+
+Time : 12:14:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key,image,status) VALUES (?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO cms_employee (fullname,email,password,key,image,status) VALUES (:fullname,:email,:password,:key,:image,:status)
+
+Time : 12:13:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key,image,status) VALUES (?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO cms_employee (fullname,email,password,key,image,status) VALUES (:fullname,:email,:password,:key,:image,:status)
+
+Time : 12:12:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key,image,status) VALUES (?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO cms_employee (fullname,email,password,key,image,status) VALUES (:fullname,:email,:password,:key,:image,:status)
+
+Time : 12:10:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key,image,status) VALUES (?,?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO cms_employee (fullname,email,password,key,image,status) VALUES (:fullname,:email,:password,:key,:image,:status)
+
+Time : 11:59:46
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `cms_employee` WHERE `id`!= :d ORDER BY fullname ASC LIMIT 0,5
+
+Time : 11:59:44
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM `cms_employee` WHERE `id`!= :d ORDER BY fullname ASC LIMIT 0,5
+
+Time : 11:58:03
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM `cms_employee` WHERE `id`!= :d AND LOWER(`fullname`) LIKE :keyword OR LOWER(`email`) LIKE :keyword ORDER BY fullname ASC LIMIT 0,5
+
+Time : 11:58:03
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM `cms_employee` WHERE `id`!= :d AND LOWER(`fullname`) LIKE :keyword OR LOWER(`email`) LIKE :keyword ORDER BY fullname ASC LIMIT 0,5
+
+Time : 11:58:02
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM `cms_employee` WHERE `id`!= :d AND LOWER(`fullname`) LIKE :keyword OR LOWER(`email`) LIKE :keyword ORDER BY fullname ASC LIMIT 0,5
+
+Time : 11:57:04
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM `cms_employee` WHERE `id`!='0 ' AND LOWER(`fullname`) LIKE :keyword OR LOWER(`email`) LIKE :keyword ORDER BY fullname ASC LIMIT 0,5
+
+Time : 09:21:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:20:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:20:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:20:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:19:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:19:42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:19:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:19:40
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:19:14
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:18:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:18:42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:17:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:17:00
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:16:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:15:45
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:15:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:14:19
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:13:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:13:09
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 09:12:28
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC LIMIT ,
+
+Time : 08:37:12
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC
+
+Time : 08:36:41
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC
+
+Time : 08:32:11
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC
+
+Time : 08:31:20
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC
+
+Time : 08:30:29
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM persons WHERE sex = :sex AND age = :age ORDER BY Firstname ASC
